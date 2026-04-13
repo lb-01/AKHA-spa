@@ -6,6 +6,6 @@ import { App } from './index';
 describe('App', () => {
   it('renders spinning GitHub icon and greeting', () => {
     render(<App />);
-    expect(screen.getByText(/Hello Anne-Kristine/)).toBeInTheDocument();
+    expect(screen.getByText(/Hello Anne-Kristine Haunsvig/)).toBeInTheDocument();
   });
 });
